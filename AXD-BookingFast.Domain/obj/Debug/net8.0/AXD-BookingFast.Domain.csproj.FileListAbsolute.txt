@@ -1,0 +1,12 @@
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\bin\Debug\net8.0\AXD-BookingFast.Domain.deps.json
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\bin\Debug\net8.0\AXD-BookingFast.Domain.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\bin\Debug\net8.0\AXD-BookingFast.Domain.pdb
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.AssemblyInfoInputs.cache
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.AssemblyInfo.cs
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.csproj.CoreCompileInputs.cache
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.sourcelink.json
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\refint\AXD-BookingFast.Domain.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\AXD-BookingFast.Domain.pdb
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Domain\obj\Debug\net8.0\ref\AXD-BookingFast.Domain.dll

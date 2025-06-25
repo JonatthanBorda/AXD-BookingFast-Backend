@@ -1,0 +1,6 @@
+@AXD_BookingFast.WebApi_HostAddress = http://localhost:5072
+
+GET {{AXD_BookingFast.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

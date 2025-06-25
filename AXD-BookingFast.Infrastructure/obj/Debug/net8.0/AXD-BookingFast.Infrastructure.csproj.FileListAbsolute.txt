@@ -1,0 +1,16 @@
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\bin\Debug\net8.0\AXD-BookingFast.Infrastructure.deps.json
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\bin\Debug\net8.0\AXD-BookingFast.Infrastructure.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\bin\Debug\net8.0\AXD-BookingFast.Infrastructure.pdb
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\bin\Debug\net8.0\AXD-BookingFast.Domain.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\bin\Debug\net8.0\AXD-BookingFast.Domain.pdb
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.csproj.AssemblyReference.cache
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.AssemblyInfoInputs.cache
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.AssemblyInfo.cs
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.sourcelink.json
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-Book.90FE79FF.Up2Date
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\refint\AXD-BookingFast.Infrastructure.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\AXD-BookingFast.Infrastructure.pdb
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.Infrastructure\obj\Debug\net8.0\ref\AXD-BookingFast.Infrastructure.dll

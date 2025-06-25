@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AXD-BookingFast.WebApi.props" />
+</Project>

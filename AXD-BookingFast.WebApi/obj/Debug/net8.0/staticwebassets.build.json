@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "uSgDf3ucjVLVugW8zE7AouCWwzBagFROCjBUo74+NKw=",
+  "Source": "AXD-BookingFast.WebApi",
+  "BasePath": "_content/AXD-BookingFast.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
