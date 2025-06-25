@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AXD-BookingFast.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a17c687d19b5af4b5895c790febe462213d85bb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc194f7a9a4dd7e4f6eadb1d362daaa9c7b3a6bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AXD-BookingFast.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AXD-BookingFast.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
