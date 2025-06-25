@@ -1,15 +1,27 @@
+using AXD_BookingFast.Infrastructure.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+//MediatR (manejo de comandos y queries):
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AXD_BookingFast.Application.AssemblyReference).Assembly));
+
+//AutoMapper (configuración de mapeos de DTOs y entidades):
+builder.Services.AddAutoMapper(typeof(AXD_BookingFast.Application.Mapping.MappingProfile));
+
+//Servicios de infraestructura (DbContext, Repositorios, UnitOfWork):
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddInfrastructure(connectionString!);
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+//Swagger:
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//Pipeline de solicitudes HTTP:
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,9 +29,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

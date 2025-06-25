@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AXD-BookingFast.Application\AXD-BookingFast.Application.csproj" />
     <ProjectReference Include="..\AXD-BookingFast.Infrastructure\AXD-BookingFast.Infrastructure.csproj" />
   </ItemGroup>
 
