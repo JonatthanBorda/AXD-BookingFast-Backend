@@ -4,6 +4,7 @@ using AXD_BookingFast.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AXD_BookingFast.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250625235247_AddSeasonsData")]
+    partial class AddSeasonsData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1010,98 +1013,6 @@ namespace AXD_BookingFast.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RoomRates");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("10101010-1010-1010-1010-101010101010"),
-                            HotelId = new Guid("f7b9ce9b-2ff0-4bc5-b42a-46948a0f8136"),
-                            PeopleCount = 4,
-                            PricePerNight = 500000m,
-                            RoomType = 1,
-                            SeasonType = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("10101010-1010-1010-1010-101010101011"),
-                            HotelId = new Guid("f7b9ce9b-2ff0-4bc5-b42a-46948a0f8136"),
-                            PeopleCount = 4,
-                            PricePerNight = 600000m,
-                            RoomType = 2,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("10101010-1010-1010-1010-101010101012"),
-                            HotelId = new Guid("f7b9ce9b-2ff0-4bc5-b42a-46948a0f8136"),
-                            PeopleCount = 4,
-                            PricePerNight = 550000m,
-                            RoomType = 1,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("20202020-2020-2020-2020-202020202020"),
-                            HotelId = new Guid("ea2c6bb1-9515-4443-bfb8-b80cfbfe15ef"),
-                            PeopleCount = 6,
-                            PricePerNight = 700000m,
-                            RoomType = 2,
-                            SeasonType = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("20202020-2020-2020-2020-202020202021"),
-                            HotelId = new Guid("ea2c6bb1-9515-4443-bfb8-b80cfbfe15ef"),
-                            PeopleCount = 6,
-                            PricePerNight = 800000m,
-                            RoomType = 3,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("30303030-3030-3030-3030-303030303030"),
-                            HotelId = new Guid("7e7db5c0-7d1d-4e9c-b226-6e2d1390c7f4"),
-                            PeopleCount = 8,
-                            PricePerNight = 650000m,
-                            RoomType = 1,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("30303030-3030-3030-3030-303030303031"),
-                            HotelId = new Guid("7e7db5c0-7d1d-4e9c-b226-6e2d1390c7f4"),
-                            PeopleCount = 8,
-                            PricePerNight = 750000m,
-                            RoomType = 2,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("40404040-4040-4040-4040-404040404040"),
-                            HotelId = new Guid("95c27ad9-3d5f-4f32-8e5e-bd4d91a9907d"),
-                            PeopleCount = 6,
-                            PricePerNight = 900000m,
-                            RoomType = 1,
-                            SeasonType = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("40404040-4040-4040-4040-404040404041"),
-                            HotelId = new Guid("95c27ad9-3d5f-4f32-8e5e-bd4d91a9907d"),
-                            PeopleCount = 6,
-                            PricePerNight = 1000000m,
-                            RoomType = 2,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("40404040-4040-4040-4040-404040404042"),
-                            HotelId = new Guid("95c27ad9-3d5f-4f32-8e5e-bd4d91a9907d"),
-                            PeopleCount = 6,
-                            PricePerNight = 1200000m,
-                            RoomType = 3,
-                            SeasonType = 1
-                        });
                 });
 
             modelBuilder.Entity("AXD_BookingFast.Domain.Entities.Season", b =>
@@ -1126,14 +1037,14 @@ namespace AXD_BookingFast.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("11111111-1111-1111-1111-111111111111"),
+                            Id = new Guid("768124bd-a809-4130-af6d-3852374453d5"),
                             EndDate = new DateTime(2025, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonType = 2,
                             StartDate = new DateTime(2025, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("22222222-2222-2222-2222-222222222222"),
+                            Id = new Guid("6c634f08-339b-4e56-b60e-8752e134cb3d"),
                             EndDate = new DateTime(2026, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonType = 1,
                             StartDate = new DateTime(2025, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)

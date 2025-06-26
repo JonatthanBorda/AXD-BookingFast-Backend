@@ -4,6 +4,7 @@ using AXD_BookingFast.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AXD_BookingFast.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250625235736_UpdateModelForSeasonsAndDecimals")]
+    partial class UpdateModelForSeasonsAndDecimals
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1010,98 +1013,6 @@ namespace AXD_BookingFast.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RoomRates");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("10101010-1010-1010-1010-101010101010"),
-                            HotelId = new Guid("f7b9ce9b-2ff0-4bc5-b42a-46948a0f8136"),
-                            PeopleCount = 4,
-                            PricePerNight = 500000m,
-                            RoomType = 1,
-                            SeasonType = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("10101010-1010-1010-1010-101010101011"),
-                            HotelId = new Guid("f7b9ce9b-2ff0-4bc5-b42a-46948a0f8136"),
-                            PeopleCount = 4,
-                            PricePerNight = 600000m,
-                            RoomType = 2,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("10101010-1010-1010-1010-101010101012"),
-                            HotelId = new Guid("f7b9ce9b-2ff0-4bc5-b42a-46948a0f8136"),
-                            PeopleCount = 4,
-                            PricePerNight = 550000m,
-                            RoomType = 1,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("20202020-2020-2020-2020-202020202020"),
-                            HotelId = new Guid("ea2c6bb1-9515-4443-bfb8-b80cfbfe15ef"),
-                            PeopleCount = 6,
-                            PricePerNight = 700000m,
-                            RoomType = 2,
-                            SeasonType = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("20202020-2020-2020-2020-202020202021"),
-                            HotelId = new Guid("ea2c6bb1-9515-4443-bfb8-b80cfbfe15ef"),
-                            PeopleCount = 6,
-                            PricePerNight = 800000m,
-                            RoomType = 3,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("30303030-3030-3030-3030-303030303030"),
-                            HotelId = new Guid("7e7db5c0-7d1d-4e9c-b226-6e2d1390c7f4"),
-                            PeopleCount = 8,
-                            PricePerNight = 650000m,
-                            RoomType = 1,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("30303030-3030-3030-3030-303030303031"),
-                            HotelId = new Guid("7e7db5c0-7d1d-4e9c-b226-6e2d1390c7f4"),
-                            PeopleCount = 8,
-                            PricePerNight = 750000m,
-                            RoomType = 2,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("40404040-4040-4040-4040-404040404040"),
-                            HotelId = new Guid("95c27ad9-3d5f-4f32-8e5e-bd4d91a9907d"),
-                            PeopleCount = 6,
-                            PricePerNight = 900000m,
-                            RoomType = 1,
-                            SeasonType = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("40404040-4040-4040-4040-404040404041"),
-                            HotelId = new Guid("95c27ad9-3d5f-4f32-8e5e-bd4d91a9907d"),
-                            PeopleCount = 6,
-                            PricePerNight = 1000000m,
-                            RoomType = 2,
-                            SeasonType = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("40404040-4040-4040-4040-404040404042"),
-                            HotelId = new Guid("95c27ad9-3d5f-4f32-8e5e-bd4d91a9907d"),
-                            PeopleCount = 6,
-                            PricePerNight = 1200000m,
-                            RoomType = 3,
-                            SeasonType = 1
-                        });
                 });
 
             modelBuilder.Entity("AXD_BookingFast.Domain.Entities.Season", b =>

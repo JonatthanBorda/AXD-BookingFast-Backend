@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AXD-BookingFast.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:AXD_BookingFast.WebApi.Controllers.HotelsController.GetHotels">
+            <summary>
+            Consultar todos los hoteles.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AXD_BookingFast.WebApi.Controllers.HotelsController.GetHotel(System.Guid)">
+            <summary>
+            Consultar un hotel específico por id.
+            </summary>
+            <param name="hotelId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AXD_BookingFast.WebApi.Controllers.ReservationsController.CreateReservation(AXD_BookingFast.Application.DTOs.CreateReservationRequestDto)">
+            <summary>
+            Crear una nueva reserva.
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AXD_BookingFast.WebApi.Controllers.RoomsController">
+            <summary>
+            Controlador que maneja todas las operaciones relacionadas con las habitaciones.
+            </summary>
+        </member>
+        <member name="M:AXD_BookingFast.WebApi.Controllers.RoomsController.CheckAvailability(AXD_BookingFast.Application.DTOs.RoomAvailabilityRequestDto)">
+            <summary>
+            Consulta la disponibilidad de habitaciones para el hotel especificado.
+            </summary>
+            <param name="request">Solicitud con la información de disponibilidad de la habitación.</param>
+            <returns>Detalles de la disponibilidad de habitaciones.</returns>
+        </member>
+        <member name="M:AXD_BookingFast.WebApi.Controllers.RoomsController.GetRate(AXD_BookingFast.Application.DTOs.RoomAvailabilityRequestDto)">
+            <summary>
+            Consultar tarifa de una habitación.
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -173,10 +173,10 @@ D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFa
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AXD-BookingFast.WebApi.props
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AXD-BookingFast.WebApi.props
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\AXD-Book.ED2B8831.Up2Date
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\AXD-BookingFast.WebApi.dll
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\refint\AXD-BookingFast.WebApi.dll
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\AXD-BookingFast.WebApi.pdb
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\AXD-BookingFast.WebApi.genruntimeconfig.cache
 D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\ref\AXD-BookingFast.WebApi.dll
+D:\Documentos\Empresas\AXD\AXD-BookingFast\AXD-BookingFast-Backend\AXD-BookingFast\AXD-BookingFast.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AXD-BookingFast.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef9e0e61cce54cdaf625fb801032f04ddb6c98fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+791d080145be02f58de807a38b336c06e394f991")]
 [assembly: System.Reflection.AssemblyProductAttribute("AXD-BookingFast.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AXD-BookingFast.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

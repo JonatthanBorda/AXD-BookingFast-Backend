@@ -22,7 +22,7 @@ namespace AXD_BookingFast.Application.Queries.GetRoomRate
         {
             var season = await _unitOfWork.Seasons.GetSeasonForDateAsync(request.CheckIn);
             var roomRate = await _unitOfWork.RoomRates.GetRateAsync(request.HotelId, request.RoomType, season.SeasonType, request.PeopleCount);
-
+            
             if (roomRate == null)
                 throw new Exception("No room rate found for the selected criteria.");
 
